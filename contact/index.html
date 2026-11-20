@@ -87,7 +87,7 @@
 
   /* breadcrumb */
   .breadcrumb { background: var(--bt-bg-sunk); border-bottom: 1px solid var(--bt-line-soft); }
-  .breadcrumb .wrap { display: flex; gap: 8px; padding: 12px 0; font-size: 12px; color: var(--bt-ink-3); flex-wrap: wrap; }
+  .breadcrumb .wrap { display: flex; gap: 8px; padding: 12px 0; font-size: 13.5px; color: var(--bt-ink-3); flex-wrap: wrap; }
   .breadcrumb a { color: var(--bt-ink-3); }
   .breadcrumb a:hover { color: var(--bt-accent); }
   .breadcrumb .sep { color: var(--bt-line); }
@@ -107,10 +107,10 @@
   section { position: relative; }
   .sec-pad { padding: 64px 0; }
   .sec-head { text-align: center; max-width: 760px; margin: 0 auto 40px; }
-  .sec-head .eyebrow { font-size: 12px; letter-spacing: 0.18em; color: var(--bt-ink-4); font-weight: 600; display: block; margin-bottom: 14px; text-transform: uppercase; }
+  .sec-head .eyebrow { font-size: 13.5px; letter-spacing: 0.18em; color: var(--bt-ink-4); font-weight: 600; display: block; margin-bottom: 14px; text-transform: uppercase; }
   .sec-head h1 { font-family: var(--bt-font-serif); font-weight: 600; font-size: clamp(26px, 3.4vw, 38px); line-height: 1.4; color: var(--bt-primary); margin: 0 0 18px; letter-spacing: 0.02em; }
   .sec-head h2 { font-family: var(--bt-font-serif); font-weight: 600; font-size: clamp(22px, 3vw, 30px); line-height: 1.4; color: var(--bt-primary); margin: 0 0 14px; }
-  .sec-head p { color: var(--bt-ink-2); font-size: 15.5px; line-height: 2; margin: 0; }
+  .sec-head p { color: var(--bt-ink-2); font-size: 17.5px; line-height: 2; margin: 0; }
 
   /* quick contact strip */
   .quick { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 14px 22px; margin-top: 26px; }
@@ -119,7 +119,7 @@
     font-family: var(--bt-font-serif); font-weight: 700; font-size: 26px; color: var(--bt-primary);
   }
   .quick .tel-big svg { width: 22px; height: 22px; color: var(--bt-accent); }
-  .quick .tel-note { font-size: 13px; color: var(--bt-ink-3); }
+  .quick .tel-note { font-size: 15px; color: var(--bt-ink-3); }
 
   /* branch cards */
   .branch-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; max-width: 1040px; margin: 0 auto; }
@@ -130,9 +130,9 @@
     border-radius: 18px; box-shadow: 0 10px 30px rgba(80,55,30,0.08);
     padding: 24px 22px; display: flex; flex-direction: column; gap: 10px;
   }
-  .branch-card h3 { font-family: var(--bt-font-serif); font-weight: 600; font-size: 16px; color: var(--bt-primary); margin: 0; }
-  .branch-card p { font-size: 13px; color: var(--bt-ink-3); line-height: 1.8; margin: 0; flex: 1; }
-  .branch-card a { color: var(--bt-accent); font-size: 13px; font-weight: 700; }
+  .branch-card h3 { font-family: var(--bt-font-serif); font-weight: 600; font-size: 18px; color: var(--bt-primary); margin: 0; }
+  .branch-card p { font-size: 15px; color: var(--bt-ink-3); line-height: 1.8; margin: 0; flex: 1; }
+  .branch-card a { color: var(--bt-accent); font-size: 15px; font-weight: 700; }
   .branch-card a:hover { text-decoration: underline; }
   @media (max-width: 900px) { .branch-grid { grid-template-columns: 1fr 1fr; } }
   @media (max-width: 480px) { .branch-grid { grid-template-columns: 1fr; } }
@@ -147,12 +147,12 @@
     padding: 40px 44px;
   }
   .form-group { margin-bottom: 22px; }
-  .form-group > label { display: block; font-size: 14px; font-weight: 600; color: var(--bt-ink-1); margin-bottom: 8px; }
-  .req { color: var(--bt-accent); font-size: 11px; font-weight: 700; margin-left: 6px; }
-  .opt { color: var(--bt-ink-4); font-size: 11px; font-weight: 600; margin-left: 6px; }
+  .form-group > label { display: block; font-size: 16px; font-weight: 600; color: var(--bt-ink-1); margin-bottom: 8px; }
+  .req { color: var(--bt-accent); font-size: 12px; font-weight: 700; margin-left: 6px; }
+  .opt { color: var(--bt-ink-4); font-size: 12px; font-weight: 600; margin-left: 6px; }
   .form-control {
     width: 100%; height: 50px; padding: 0 16px;
-    font-family: var(--bt-font-sans); font-size: 15px; color: var(--bt-ink-1);
+    font-family: var(--bt-font-sans); font-size: 17px; color: var(--bt-ink-1);
     background: #fff; border: 1px solid var(--bt-line); border-radius: var(--bt-r-md);
     transition: border-color var(--bt-dur) var(--bt-ease);
   }
@@ -164,17 +164,17 @@
   .radio-set label {
     display: inline-flex; align-items: center; gap: 7px;
     padding: 9px 16px; border: 1px solid var(--bt-line); border-radius: var(--bt-r-pill);
-    background: #fff; font-size: 13.5px; color: var(--bt-ink-2); cursor: pointer;
+    background: #fff; font-size: 16px; color: var(--bt-ink-2); cursor: pointer;
     transition: border-color var(--bt-dur) var(--bt-ease), background var(--bt-dur) var(--bt-ease);
   }
   .radio-set label:hover { border-color: var(--bt-accent); }
-  .note { font-size: 13px; color: var(--bt-ink-3); line-height: 1.85; margin: 0 0 18px; }
-  .privacy-check { display: flex; align-items: flex-start; gap: 10px; font-size: 13.5px; color: var(--bt-ink-2); line-height: 1.7; margin-bottom: 24px; }
+  .note { font-size: 15px; color: var(--bt-ink-3); line-height: 1.85; margin: 0 0 18px; }
+  .privacy-check { display: flex; align-items: flex-start; gap: 10px; font-size: 16px; color: var(--bt-ink-2); line-height: 1.7; margin-bottom: 24px; }
   .privacy-check a { color: var(--bt-accent); text-decoration: underline; }
   .btn {
     display: inline-flex; align-items: center; justify-content: center; gap: 9px;
     height: 52px; padding: 0 36px; border-radius: var(--bt-r-pill);
-    font-family: var(--bt-font-sans); font-weight: 600; font-size: 15px;
+    font-family: var(--bt-font-sans); font-weight: 600; font-size: 17px;
     letter-spacing: 0.03em; border: 1.5px solid transparent; cursor: pointer;
     transition: background var(--bt-dur) var(--bt-ease);
   }
@@ -188,10 +188,10 @@
     background: var(--bt-surface); border: 1px solid var(--bt-line);
     border-radius: var(--bt-r-lg); padding: 22px 24px; text-align: center;
   }
-  .phone-card h3 { font-size: 15px; color: var(--bt-primary); margin: 0 0 6px; font-family: var(--bt-font-serif); font-weight: 600; }
+  .phone-card h3 { font-size: 17px; color: var(--bt-primary); margin: 0 0 6px; font-family: var(--bt-font-serif); font-weight: 600; }
   .phone-card .num { font-family: var(--bt-font-serif); font-weight: 700; font-size: 22px; color: var(--bt-primary); margin-bottom: 4px; }
-  .phone-card .hours { font-size: 12.5px; color: var(--bt-ink-3); margin-bottom: 14px; }
-  .phone-card a.call { display: inline-flex; align-items: center; justify-content: center; height: 42px; padding: 0 22px; border-radius: var(--bt-r-pill); border: 1.5px solid var(--bt-primary); color: var(--bt-primary); font-size: 13.5px; font-weight: 600; }
+  .phone-card .hours { font-size: 15px; color: var(--bt-ink-3); margin-bottom: 14px; }
+  .phone-card a.call { display: inline-flex; align-items: center; justify-content: center; height: 42px; padding: 0 22px; border-radius: var(--bt-r-pill); border: 1.5px solid var(--bt-primary); color: var(--bt-primary); font-size: 16px; font-weight: 600; }
   .phone-card a.call:hover { background: var(--bt-primary); color: #fff; }
   @media (max-width: 560px) { .phone-grid { grid-template-columns: 1fr; } }
 
@@ -200,15 +200,15 @@
   .footer-top { padding: 64px var(--bt-gutter) 48px; display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 40px; }
   .f-brand img { width: 44px; height: 44px; margin-bottom: 16px; }
   .f-brand .name { font-family: var(--bt-font-serif); font-size: 20px; color: #fff; margin-bottom: 14px; }
-  .f-brand p { font-size: 13px; line-height: 1.9; color: rgba(255,255,255,0.55); margin: 0 0 18px; max-width: 280px; }
-  .footer-col h5 { font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--bt-group); margin: 0 0 18px; font-weight: 600; }
+  .f-brand p { font-size: 15px; line-height: 1.9; color: rgba(255,255,255,0.55); margin: 0 0 18px; max-width: 280px; }
+  .footer-col h5 { font-size: 13.5px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--bt-group); margin: 0 0 18px; font-weight: 600; }
   .footer-col ul { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 11px; }
-  .footer-col a { font-size: 13.5px; color: rgba(255,255,255,0.68); transition: color var(--bt-dur) var(--bt-ease); }
+  .footer-col a { font-size: 16px; color: rgba(255,255,255,0.68); transition: color var(--bt-dur) var(--bt-ease); }
   .footer-col a:hover { color: #fff; }
   .footer-bottom {
     border-top: 1px solid rgba(255,255,255,0.1); padding: 22px var(--bt-gutter);
     display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;
-    font-size: 12px; color: rgba(255,255,255,0.45);
+    font-size: 13.5px; color: rgba(255,255,255,0.45);
   }
 
   @media (max-width: 1000px) { .main-nav, .header-phone { display: none; } .header-inner { gap: 12px; } }
@@ -518,7 +518,7 @@ body.drawer-open .nav-drawer { transform: translateX(0); visibility: visible; }
     </div>
   </div>
   <div class="wrap footer-nap" style="padding:0 var(--bt-gutter) 18px;">
-    <address style="font-style:normal;font-size:12.5px;line-height:1.9;color:rgba(255,255,255,0.5);">株式会社べるつりー　〒192-0372 東京都八王子市下柚木3-7-2-401　TEL 042-682-2839</address>
+    <address style="font-style:normal;font-size:15px;line-height:1.9;color:rgba(255,255,255,0.5);">株式会社べるつりー　〒192-0372 東京都八王子市下柚木3-7-2-401　TEL 042-682-2839</address>
   </div>
   <div class="wrap footer-bottom">
     <span>© 2026 株式会社べるつりー / Belltree Group</span>
